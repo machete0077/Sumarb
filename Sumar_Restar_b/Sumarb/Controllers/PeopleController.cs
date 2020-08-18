@@ -14,6 +14,7 @@ namespace Sumarb.Controllers
     public class PeopleController : ControllerBase
     {
         [HttpGet]
+        [HttpPost]
         public People listar()
         {
             People person = new People
